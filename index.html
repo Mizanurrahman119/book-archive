@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+
+    <title>Book Archive</title>
+
+    <!-- css style  -->
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+    
+    <div  class="container">
+
+        <!-- Work-title -->
+
+        <h1 id="title" class="text-center m-3">Book Archive</h1>
+
+        <!-- Input filed start -->
+        <div class="row">
+            <div id="input" class=" input-group mx-auto col-lg-6 col-md-8 col-sm-12">
+
+                <!-- input part -->
+                <input type="text" id="search-box" class="form-control" placeholder="Search Your Favorite Books..">
+
+                <!-- button part -->
+                <button id="search-btn" class="btn btn-primary">Search</button>
+
+            </div>
+
+        </div>
+
+        <!-- Input filed End -->
+
+        <div>
+            <div class="book-list">
+                <h2 class="text-center mt-4">Found Results: <span id="count"></span></h2>
+                <div id="output"  class="mt-lg-5">
+                    <div class="row row-cols-1 row-cols-md-3 g-4" id="list-output">
+                        
+                       
+                      </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>
